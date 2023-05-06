@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+        .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000af;
+  border: none;
+}
+
+#myForm {
+  padding: 50px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  padding-left: 5%;
+}
+
+#myForm:hover {
+  box-shadow: 0px 0px 10px #00000033;
+  transform: scale(1.02);
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+.field {
+  
+  background: #0000008d cover;;
+  color: #d0e6dd;
+  border: none;
+}
+
+.field:hover {
+  background: #000000b3;
+}
+
+.field span {
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  background-color: #000000bb;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.field input[type="text"]:focus {
+  background-color: #000000d1;
+}
+
+.field input[type="submit"] {
+  background: #34d5db;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.field input[type="submit"]:hover {
+  background: #1f8185;
+}
+
+span {
+  margin-left: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="myForm" action="#" method="post">
+            <fieldset>
+                <legend class="field">Number of Rooms</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">Number of People</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">HouseArea</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">AC (0 for yes and 1 for no)</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">TV (0 for yes and 1 for no)</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">Average Monthly Income</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">Number of Children</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">Amount Paid</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">AC Use Time (in hrs)</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <legend class="field">TV Use Time (in hrs)</legend>
+                <div class="field">
+                    <input type="text" placeholder="0" class="text">
+                </div>
+                <div class="field">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    
+</div>
+    <div id="result" class="hidden">
+        <span>
+        <p id="span">Result</p>
+        </span>
+    </div>
+<script>
+
+</script>
+</body>
+</html>
