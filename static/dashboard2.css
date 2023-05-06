@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #1b203d;
+  background-color: #a1db8a;
   overflow: hidden;
   font-family: system-ui;
 }
@@ -16,7 +16,7 @@ body {
   margin-bottom: 30px;
 }
 .logo span {
-  color: #f7403b;
+  color: #555555;
 }
 .sidenav {
   height: 100%;
@@ -25,7 +25,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #272c4a;
+  background-color: #000000;
   overflow: hidden;
   transition: 0.5s;
   padding-top: 30px;
@@ -34,13 +34,13 @@ body {
   padding: 15px 8px 15px 32px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 .sidenav a:hover {
-  color: #f1f1f1;
-  background-color: #1b203d;
+  color: #19e935;
+  background-color: #727272;
 }
 .sidenav {
   position: absolute;
@@ -71,7 +71,7 @@ body {
   margin-top: 5px;
 }
 .profile p {
-  color: white;
+  color: rgb(255, 174, 0);
   font-weight: 500;
   margin-left: 55px;
   margin-top: 10px;
@@ -84,19 +84,19 @@ body {
   color: #8e8b8b;
 }
 .col-div-3 {
-  width: 25%;
+  width: 50%;
   float: left;
 }
 .box {
   width: 85%;
   height: 100px;
-  background-color: #272c4a;
+  background-color: #f7d8a9;
   margin-left: 10px;
   padding: 10px;
 }
 .box p {
   font-size: 35px;
-  color: white;
+  color: rgb(91, 140, 148);
   font-weight: bold;
   line-height: 30px;
   padding-left: 10px;
@@ -106,7 +106,7 @@ body {
 .box p span {
   font-size: 20px;
   font-weight: 400;
-  color: #818181;
+  color: #000000;
 }
 .box-icon {
   font-size: 40px !important;
@@ -120,7 +120,7 @@ body {
   float: left;
 }
 .col-div-4 {
-  width: 30%;
+  width: 50%;
   float: left;
 }
 .content-box {
@@ -129,7 +129,7 @@ body {
 .content-box p {
   margin: 0px;
   font-size: 20px;
-  color: #f7403b;
+  color: #3b3a3a;
 }
 .content-box p span {
   float: right;
@@ -140,7 +140,7 @@ body {
 .box-8,
 .box-4 {
   width: 95%;
-  background-color: #272c4a;
+  background-color: #5aa164;
   height: 330px;
 }
 .nav2 {
@@ -159,7 +159,7 @@ td,
 th {
   text-align: left;
   padding: 15px;
-  color: #ddd;
+  color: #ffffff;
   border-bottom: 1px solid #81818140;
 }
 .circle-wrap {
@@ -178,16 +178,6 @@ th {
 }
 .circle-wrap .circle .mask {
   clip: rect(0px, 150px, 150px, 75px);
-}
-
-.circle-wrap .circle .mask .fill {
-  clip: rect(0px, 75px, 150px, 0px);
-  background-color: #f7403b;
-}
-.circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
-  animation: fill ease-in-out 3s;
-  transform: rotate(126deg);
 }
 
 @keyframes fill {
