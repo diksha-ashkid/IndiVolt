@@ -8,10 +8,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
         .container {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #000000af;
   border: none;
 }
@@ -28,13 +25,6 @@
   box-shadow: 0px 0px 10px #00000033;
   transform: scale(1.02);
 }
-
-.hidden {
-  display: none;
-}
-
-
-
 
 .field {
   
@@ -59,15 +49,12 @@
   background: transparent;
   border: none;
   outline: none;
-  background-color: #000000bb;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   transition: all 0.3s ease-in-out;
 }
 
-.field input[type="text"]:focus {
-  background-color: #000000d1;
-}
+
 
 .field input[type="submit"] {
   background: #34d5db;
@@ -96,47 +83,43 @@ span {
 </head>
 <body>
     <div class="container">
-        <form id="myForm" action="#" method="post">
+        <form id="myForm" action="/submit" method="post">
             <fieldset>
                 <legend class="field">Number of Rooms</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "norooms">
                 </div>
                 <legend class="field">Number of People</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "nopeople">
                 </div>
                 <legend class="field">HouseArea</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "area">
                 </div>
                 <legend class="field">AC (0 for yes and 1 for no)</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "acs">
                 </div>
                 <legend class="field">TV (0 for yes and 1 for no)</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "tvs">
                 </div>
                 <legend class="field">Average Monthly Income</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "income">
                 </div>
                 <legend class="field">Number of Children</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name= "kids">
                 </div>
-                <legend class="field">Amount Paid</legend>
+                <legend class="field">AC Use Time</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "actime">
                 </div>
-                <legend class="field">AC Use Time (in hrs)</legend>
+                <legend class="field">TV Use Time</legend>
                 <div class="field">
-                    <input type="text" placeholder="0" class="text">
-                </div>
-                <legend class="field">TV Use Time (in hrs)</legend>
-                <div class="field">
-                    <input type="text" placeholder="0" class="text">
+                    <input type="text" placeholder="0" class="text" name = "tvtime">
                 </div>
                 <div class="field">
                     <input type="submit" value="Submit">
@@ -148,7 +131,10 @@ span {
 </div>
     <div id="result" class="hidden">
         <span>
-        <p id="span">Result</p>
+        <p id="span">Result: {%if pred%}
+           <h1>{{pred}}</h1> 
+            {%endif%}
+        </p>
         </span>
     </div>
 <script>
