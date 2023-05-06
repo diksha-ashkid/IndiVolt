@@ -20,7 +20,7 @@ def submit():
     tvtime = request.form['tvtime']
     arr = [[norooms, nopeople, area, acs, tvs,1, incomes, kids, 1,actime, tvtime]]
     pred = rf.predict(arr)
-    print(pred)
+    pred = str(pred[0])
     return render_template('ab.html', pred = pred)
     
 
