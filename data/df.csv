@@ -1,0 +1,1020 @@
+Device,Number of Devices,Time Used (hrs),Total Cost (Rupees),Watt Consumption
+AC,2,6,102,1500
+Refrigerator,1,24,64,200
+Fan,3,8,36,75
+Light,10,4,4,15
+Washing Machine,1,3,15,300
+Television,1,4,8,80
+Water Heater,1,1,25,3000
+Iron,1,1,12,1000
+Computer,1,3,6,100
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,0.5,1,1200
+Air Cooler,1,8,20,200
+Induction Cooktop,1,1,10,2000
+Ceiling Fan,2,12,42,75
+Water Pump,1,1,8,1000
+AC,2,6,102,1500
+Refrigerator,1,24,64,200
+Fan,3,8,36,75
+Light,10,4,4,15
+Washing Machine,1,3,15,300
+Television,1,4,8,80
+Water Heater,1,1,25,3000
+Iron,1,1,12,1000
+Computer,1,3,6,100
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,0.5,1,1200
+Air Cooler,1,8,20,200
+Induction Cooktop,1,1,10,2000
+Ceiling Fan,2,12,42,75
+Water Pump,1,1,8,1000
+AC,1,5,64,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,1,2,10,300
+Television,2,6,16,80
+Water Heater,1,2,50,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Fan,5,12,54,75
+Light,15,5,8,15
+Washing Machine,1,4,20,300
+Television,3,8,24,80
+Water Heater,1,3,75,3000
+Iron,3,2,36,1000
+Computer,3,6,30,100
+Mixer Grinder,1,2,3,500
+Electric Kettle,1,1,4,1200
+Air Cooler,3,12,60,200
+Induction Cooktop,3,3,30,2000
+Ceiling Fan,4,16,56,75
+Water Pump,3,2,24,1000
+AC,1,8,136,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,2,4,40,300
+Television,2,6,16,80
+Water Heater,1,1,25,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Light,10,5,6,15
+Washing Machine,2,3,30,300
+Television,3,8,24,80
+Water Heater,2,2,50,3000
+Iron,3,1,36,1000
+Computer,3,6,30,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,3,12,60,200
+Induction Cooktop,3,3,30,2000
+Ceiling Fan,4,16,56,75
+Water Pump,3,2,24,1000
+AC,1,8,136,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,2,4,40,300
+Television,2,6,16,80
+Water Heater,1,1,25,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Fan,5,12,54,75
+Light,15,5,8,15
+Washing Machine,1,4,20,300
+Television,3,8,24,80
+Water Heater,1,3,75,3000
+Iron,3,2,36,1000
+Computer,3,6,30,100
+Mixer Grinder,1,2,3,500
+Electric Kettle,1,1,4,1200
+Air Cooler,3,12,60,200
+Induction Cooktop,3,3,30,2000
+Ceiling Fan,4,16,56,75
+Water Pump,3,2,24,1000
+AC,1,8,136,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,2,4,40,300
+Television,2,6,16,80
+Water Heater,1,1,25,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Fan,5,12,54,75
+Light,15,5,8,15
+Washing Machine,1,4,20,300
+Television,3,8,24,80
+AC,2,7,28.12,1800
+Refrigerator,1,24,7.2,250
+Fan,3,8,2.4,70
+Light,10,5,6,60
+Washing Machine,1,2,3.5,350
+Television,1,5,2,60
+Water Heater,1,1,3.75,1500
+Iron,1,1,2,1000
+Computer,1,3,1.5,120
+Mixer Grinder,1,0.5,0.2,500
+Electric Kettle,1,0.25,0.1,1000
+Air Cooler,1,5,4.5,200
+Induction Cooktop,1,1,1.25,1200
+Ceiling Fan,5,10,4,75
+Water Pump,1,2,4,1500
+AC,2,6,24.09,1500
+Refrigerator,1,24,7.2,250
+Fan,3,10,3,70
+Light,10,5,6,60
+Washing Machine,1,3,4.5,350
+Television,1,6,2.4,60
+Water Heater,1,2,7.5,1500
+Iron,1,1,2,1000
+Computer,1,5,2.5,120
+Mixer Grinder,1,0.5,0.2,500
+Electric Kettle,1,0.25,0.1,1000
+Air Cooler,1,6,5.4,200
+Induction Cooktop,1,1,1.25,1200
+Ceiling Fan,5,12,4.5,75
+Water Pump,1,3,6,1500
+AC,2,8,32.12,1800
+Refrigerator,1,24,7.2,250
+Fan,3,12,3.6,70
+Light,10,6,7.2,60
+Washing Machine,1,4,5.5,350
+Television,1,8,3.2,60
+Water Heater,1,3,11.25,1500
+Iron,1,2,4,1000
+Computer,1,7,3.5,120
+Mixer Grinder,1,1,0.4,500
+Electric Kettle,1,0.5,0.2,1000
+Air Cooler,1,7,6.3,200
+Induction Cooktop,1,2,2.5,1200
+Ceiling Fan,5,14,5.25,75
+Water Pump,1,4,8,1500
+AC,2,5,20.06,1500
+Refrigerator,1,24,7.2,250
+Fan,3,6,1.8,70
+Light,10,4,4.8,60
+Washing Machine,1,1,1.75,350
+Television,1,4,1.6,60
+Water Heater,1,0.5,1.87,1500
+Iron,1,0.5,1,1000
+Computer,1,2,1,120
+Mixer Grinder,1,0.25,
+AC,2,6,300,1500
+Refrigerator,1,24,90,200
+Fan,3,8,48,50
+Light,10,4,30,60
+Washing Machine,1,2,15,1000
+Television,1,4,10,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,6,20,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,0.5,2,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2,15,1200
+Ceiling Fan,5,8,50,80
+Water Pump,1,1,10,1000
+AC,1,5,250,1250
+Refrigerator,1,24,90,200
+Fan,3,10,60,50
+Light,15,6,45,60
+Washing Machine,1,2,15,1000
+Television,1,6,15,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,7,25,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,1,5,1000
+Air Cooler,1,10,50,200
+Induction Cooktop,1,3,20,1200
+Ceiling Fan,4,10,60,80
+Water Pump,1,1,10,1000
+AC,2,8,400,1500
+Refrigerator,1,24,90,200
+Fan,3,12,72,50
+Light,20,5,50,60
+Washing Machine,1,3,22.5,1000
+Television,1,8,20,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,9,30,150
+Mixer Grinder,1,2,6,500
+Electric Kettle,1,1.5,7.5,1000
+Air Cooler,1,12,60,200
+Induction Cooktop,1,4,30,1200
+Ceiling Fan,6,12,75,80
+Water Pump,1,2,20,1000
+AC,1,7,350,1500
+Refrigerator,1,24,90,200
+Fan,4,10,80,50
+Light,15,6,45,60
+Washing Machine,1,2.5,18.75,1000
+Television,1,5,12.5,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,8,27,150
+Mixer Grinder,1,1.5,4.5,500
+Electric Kettle,1,0.5,2.5,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2.5,18.75,1200
+AC,2,6,300,1500
+Refrigerator,1,24,90,200
+Fan,3,8,48,50
+Light,10,4,30,60
+Washing Machine,1,2,15,1000
+Television,1,4,10,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,6,20,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,0.5,2,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2,15,1200
+Ceiling Fan,5,8,50,80
+Water Pump,1,1,10,1000
+AC,1,5,250,1250
+Refrigerator,1,24,90,200
+Fan,3,10,60,50
+Light,15,6,45,60
+Washing Machine,1,2,15,1000
+Television,1,6,15,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,7,25,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,1,5,1000
+Air Cooler,1,10,50,200
+Induction Cooktop,1,3,20,1200
+Ceiling Fan,4,10,60,80
+Water Pump,1,1,10,1000
+AC,2,8,400,1500
+Refrigerator,1,24,90,200
+Fan,3,12,72,50
+Light,20,5,50,60
+Washing Machine,1,3,22.5,1000
+Television,1,8,20,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,9,30,150
+Mixer Grinder,1,2,6,500
+Electric Kettle,1,1.5,7.5,1000
+Air Cooler,1,12,60,200
+Induction Cooktop,1,4,30,1200
+Ceiling Fan,6,12,75,80
+Water Pump,1,2,20,1000
+AC,1,7,350,1500
+Refrigerator,1,24,90,200
+Fan,4,10,80,50
+Light,15,6,45,60
+Washing Machine,1,2.5,18.75,1000
+Television,1,5,12.5,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,8,27,150
+Mixer Grinder,1,1.5,4.5,500
+Electric Kettle,1,0.5,2.5,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2.5,18.75,1200
+AC,2,8,24,1500
+Refrigerator,1,24,3,200
+Fan,3,10,4,50
+Light,10,6,5,60
+Washing Machine,1,2,6,400
+Television,1,5,2,120
+Water Heater,1,2,8,3000
+Iron,1,1,2,1000
+Computer,1,4,3,200
+Mixer Grinder,1,0.5,1,750
+Electric Kettle,1,1,1,1500
+Air Cooler,1,8,6,350
+Induction Cooktop,1,2,1,2000
+Ceiling Fan,5,12,3,75
+Water Pump,1,1,10,1500
+AC,1,10,30,1000
+Refrigerator,1,24,2,250
+Fan,2,8,2,50
+Light,8,6,3,60
+Washing Machine,1,3,8,400
+Television,1,6,3,100
+Water Heater,1,3,12,3000
+Iron,1,1,2,1200
+Computer,1,5,4,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1200
+Air Cooler,1,10,8,400
+Induction Cooktop,1,3,2,2000
+Ceiling Fan,3,12,2,75
+Water Pump,1,2,15,1500
+AC,2,12,36,1500
+Refrigerator,1,24,3,300
+Fan,4,10,3,50
+Light,12,6,6,60
+Washing Machine,1,2,6,500
+Television,1,8,4,150
+Water Heater,1,1,4,3000
+Iron,1,1,2,800
+Computer,1,6,5,200
+Mixer Grinder,1,0.5,1,750
+Electric Kettle,1,1,1,1000
+Air Cooler,1,6,4,350
+Induction Cooktop,1,2,2,2000
+Ceiling Fan,6,12,4,75
+Water Pump,1,3,20,1500
+AC,1,8,24,1200
+Refrigerator,1,24,2,200
+Fan,3,8,2,50
+Light,8,6,3,60
+Washing Machine,1,2,6,450
+Television,1,5,2,100
+Water Heater,1,2,8,3000
+Iron,1,1,2,900
+Computer,1,4,3,200
+Mixer Grinder,1,0.5,1,750
+Electric Kettle,1,1,1,1500
+Air Cooler,1,10,8,350
+Induction Cooktop,1,2,1,2000
+Ceiling Fan,5,12,3,75
+Water Pump,1,1,10,1500
+AC,2,10,30,1500
+Refrigerator,1,24,3,250
+AC,2,8,30,1500
+Refrigerator,1,24,5,200
+Fan,3,10,3,50
+Light,10,6,4,60
+Washing Machine,1,2,4,400
+Television,1,5,2,100
+Water Heater,1,3,7,3000
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1000
+Air Cooler,1,7,4,200
+Induction Cooktop,1,2,1,1500
+Ceiling Fan,5,12,2,75
+Water Pump,1,1,5,1500
+AC,1,10,35,1000
+Refrigerator,1,24,4,250
+Fan,4,8,3,50
+Light,8,5,3,60
+Washing Machine,1,2,3,400
+Television,1,6,2,120
+Water Heater,1,3,6,2000
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1000
+Air Cooler,1,8,4,200
+Induction Cooktop,1,3,2,1500
+Ceiling Fan,4,12,2,75
+Water Pump,1,2,5,1500
+AC,2,7,25,2000
+Refrigerator,1,24,6,200
+Fan,3,9,3,60
+Light,9,7,5,75
+Washing Machine,1,3,5,500
+Television,1,7,2,100
+Water Heater,1,4,9,3000
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,2,2,1000
+Air Cooler,1,9,4,200
+Induction Cooktop,1,2,1,1500
+Ceiling Fan,4,12,2,75
+Water Pump,1,1,5,1500
+AC,1,9,30,1500
+Refrigerator,1,24,5,250
+Fan,4,7,3,60
+Light,8,4,3,75
+Washing Machine,1,2,4,400
+Television,1,6,2,100
+Water Heater,1,3,8,2500
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1000
+Air Cooler,1,6,4,200
+AC,2,7,38.5,1500
+Refrigerator,1,24,4.8,200
+Fan,3,8,4.8,50
+Light,10,4,6,60
+Washing Machine,1,2,5,300
+Television,1,6,4.8,120
+Water Heater,1,2,5,2000
+Iron,1,1,2,1000
+Computer,1,4,1.6,80
+Mixer Grinder,1,0.5,0.75,550
+Electric Kettle,1,0.5,0.5,1200
+Air Cooler,1,8,8,200
+Induction Cooktop,1,2,2.5,1600
+Ceiling Fan,3,12,3.6,70
+Water Pump,1,1,2.5,1500
+AC,1,4,22,1000
+Refrigerator,1,20,4,200
+Fan,4,12,7.2,50
+Light,8,6,5.4,60
+Washing Machine,1,1,2.5,300
+Television,1,4,3.2,120
+Water Heater,1,3,7.5,2000
+Iron,1,1,2,1000
+Computer,1,5,2,80
+Mixer Grinder,1,0.5,0.75,550
+Electric Kettle,1,0.5,0.5,1200
+Air Cooler,1,10,10,200
+Induction Cooktop,1,3,3.75,1600
+Ceiling Fan,5,18,5.4,70
+Water Pump,1,1,2.5,1500
+AC,1,5,27.5,1000
+Refrigerator,1,22,4.4,200
+Fan,3,10,6,50
+Light,12,6,6,60
+Washing Machine,1,2,5,300
+Television,1,5,4,120
+Water Heater,1,4,10,2000
+Iron,1,1.5,3,1000
+Computer,1,6,2.4,80
+Mixer Grinder,1,0.5,0.75,550
+Electric Kettle,1,0.5,0.5,1200
+Air Cooler,1,9,9,200
+Induction Cooktop,1,4,5,1600
+Ceiling Fan,4,16,4.8,70
+Water Pump,1,1,2.5,1500
+AC,1,6,33,1000
+Refrigerator,1,18,3.6,200
+Fan,3,9,5.4,50
+Light,14,5,7,60
+Washing Machine,1,1,2.5,300
+Television,1,3,2.4,120
+Water Heater,1,5,12.5,2000
+Iron,1,1,2,1000
+Computer,1,4,1.6,80
+Mixer Grinder,1,0.5,0.75,550
+Electric Kettle,1,0.5,0
+AC,2,6,70,1500
+Refrigerator,1,24,30,200
+Fan,3,8,6,50
+Light,10,4,4,60
+Washing Machine,1,1,5,200
+Television,1,3,4,60
+Water Heater,1,2,15,3000
+Iron,1,1,2,1000
+Computer,1,5,10,120
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,0.5,1,1000
+Air Cooler,1,6,8,200
+Induction Cooktop,1,1,2,1200
+Ceiling Fan,5,12,5,75
+Water Pump,1,1,6,800
+AC,1,4,45,1500
+Refrigerator,1,24,30,200
+Fan,4,8,8,50
+Light,15,4,6,60
+Washing Machine,1,2,8,200
+Television,1,6,8,60
+Water Heater,1,3,20,3000
+Iron,1,1.5,3,1000
+Computer,1,6,12,120
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,2,1000
+Air Cooler,1,7,10,200
+Induction Cooktop,1,2,4,1200
+Ceiling Fan,6,12,6,75
+Water Pump,1,2,12,800
+AC,2,6,70,1500
+Refrigerator,1,24,30,200
+Fan,3,10,8,50
+Light,10,4,4,60
+Washing Machine,1,1,5,200
+Television,1,4,6,60
+Water Heater,1,1,10,3000
+Iron,1,1,2,1000
+Computer,1,4,8,120
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,0.5,1,1000
+Air Cooler,1,5,6,200
+Induction Cooktop,1,2,4,1200
+Ceiling Fan,4,12,4,75
+Water Pump,1,1,6,800
+AC,1,7,85,1500
+Refrigerator,1,24,30,200
+Fan,3,8,6,50
+Light,15,5,8,60
+Washing Machine,1,2,8,200
+Television,1,2,3,60
+Water Heater,1,4,30,3000
+Iron,1,2,4,1000
+Computer,1,8,16,120
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,0.5,1,1000
+Air Cooler,1,9,12,200
+Induction Cooktop,1,1,2,1200
+Ceiling Fan,5,12,5,75
+Water Pump,1,1,6,800
+AC,2,8,95,1500
+Refrigerator,1,24,30,200
+AC,2,6,102,1500
+Refrigerator,1,24,64,200
+Fan,3,8,36,75
+Light,10,4,4,15
+Washing Machine,1,3,15,300
+Television,1,4,8,80
+Water Heater,1,1,25,3000
+Iron,1,1,12,1000
+Computer,1,3,6,100
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,0.5,1,1200
+Air Cooler,1,8,20,200
+Induction Cooktop,1,1,10,2000
+Ceiling Fan,2,12,42,75
+Water Pump,1,1,8,1000
+AC,2,6,102,1500
+Refrigerator,1,24,64,200
+Fan,3,8,36,75
+Light,10,4,4,15
+Washing Machine,1,3,15,300
+Television,1,4,8,80
+Water Heater,1,1,25,3000
+Iron,1,1,12,1000
+Computer,1,3,6,100
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,0.5,1,1200
+Air Cooler,1,8,20,200
+Induction Cooktop,1,1,10,2000
+Ceiling Fan,2,12,42,75
+Water Pump,1,1,8,1000
+AC,1,5,64,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,1,2,10,300
+Television,2,6,16,80
+Water Heater,1,2,50,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Fan,5,12,54,75
+Light,15,5,8,15
+Washing Machine,1,4,20,300
+Television,3,8,24,80
+Water Heater,1,3,75,3000
+Iron,3,2,36,1000
+Computer,3,6,30,100
+Mixer Grinder,1,2,3,500
+Electric Kettle,1,1,4,1200
+Air Cooler,3,12,60,200
+Induction Cooktop,3,3,30,2000
+Ceiling Fan,4,16,56,75
+Water Pump,3,2,24,1000
+AC,1,8,136,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,2,4,40,300
+Television,2,6,16,80
+Water Heater,1,1,25,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Light,10,5,6,15
+Washing Machine,2,3,30,300
+Television,3,8,24,80
+Water Heater,2,2,50,3000
+Iron,3,1,36,1000
+Computer,3,6,30,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,3,12,60,200
+Induction Cooktop,3,3,30,2000
+Ceiling Fan,4,16,56,75
+Water Pump,3,2,24,1000
+AC,1,8,136,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,2,4,40,300
+Television,2,6,16,80
+Water Heater,1,1,25,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Fan,5,12,54,75
+Light,15,5,8,15
+Washing Machine,1,4,20,300
+Television,3,8,24,80
+Water Heater,1,3,75,3000
+Iron,3,2,36,1000
+Computer,3,6,30,100
+Mixer Grinder,1,2,3,500
+Electric Kettle,1,1,4,1200
+Air Cooler,3,12,60,200
+Induction Cooktop,3,3,30,2000
+Ceiling Fan,4,16,56,75
+Water Pump,3,2,24,1000
+AC,1,8,136,1500
+Refrigerator,2,12,128,200
+Fan,4,10,45,75
+Light,12,3,5,15
+Washing Machine,2,4,40,300
+Television,2,6,16,80
+Water Heater,1,1,25,3000
+Iron,2,1,24,1000
+Computer,2,4,16,100
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,1,4,1200
+Air Cooler,2,8,40,200
+Induction Cooktop,2,2,20,2000
+Ceiling Fan,3,8,45,75
+Water Pump,2,1,16,1000
+AC,3,10,153,1500
+Refrigerator,1,24,64,200
+Fan,5,12,54,75
+Light,15,5,8,15
+Washing Machine,1,4,20,300
+Television,3,8,24,80
+AC,2,7,28.12,1800
+Refrigerator,1,24,7.2,250
+Fan,3,8,2.4,70
+Light,10,5,6,60
+Washing Machine,1,2,3.5,350
+Television,1,5,2,60
+Water Heater,1,1,3.75,1500
+Iron,1,1,2,1000
+Computer,1,3,1.5,120
+Mixer Grinder,1,0.5,0.2,500
+Electric Kettle,1,0.25,0.1,1000
+Air Cooler,1,5,4.5,200
+Induction Cooktop,1,1,1.25,1200
+Ceiling Fan,5,10,4,75
+Water Pump,1,2,4,1500
+AC,2,6,24.09,1500
+Refrigerator,1,24,7.2,250
+Fan,3,10,3,70
+Light,10,5,6,60
+Washing Machine,1,3,4.5,350
+Television,1,6,2.4,60
+Water Heater,1,2,7.5,1500
+Iron,1,1,2,1000
+Computer,1,5,2.5,120
+Mixer Grinder,1,0.5,0.2,500
+Electric Kettle,1,0.25,0.1,1000
+Air Cooler,1,6,5.4,200
+Induction Cooktop,1,1,1.25,1200
+Ceiling Fan,5,12,4.5,75
+Water Pump,1,3,6,1500
+AC,2,8,32.12,1800
+Refrigerator,1,24,7.2,250
+Fan,3,12,3.6,70
+Light,10,6,7.2,60
+Washing Machine,1,4,5.5,350
+Television,1,8,3.2,60
+Water Heater,1,3,11.25,1500
+Iron,1,2,4,1000
+Computer,1,7,3.5,120
+Mixer Grinder,1,1,0.4,500
+Electric Kettle,1,0.5,0.2,1000
+Air Cooler,1,7,6.3,200
+Induction Cooktop,1,2,2.5,1200
+Ceiling Fan,5,14,5.25,75
+Water Pump,1,4,8,1500
+AC,2,5,20.06,1500
+Refrigerator,1,24,7.2,250
+Fan,3,6,1.8,70
+Light,10,4,4.8,60
+Washing Machine,1,1,1.75,350
+Television,1,4,1.6,60
+Water Heater,1,0.5,1.87,1500
+Iron,1,0.5,1,1000
+Computer,1,2,1,120
+Mixer Grinder,1,0.25,
+AC,2,6,300,1500
+Refrigerator,1,24,90,200
+Fan,3,8,48,50
+Light,10,4,30,60
+Washing Machine,1,2,15,1000
+Television,1,4,10,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,6,20,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,0.5,2,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2,15,1200
+Ceiling Fan,5,8,50,80
+Water Pump,1,1,10,1000
+AC,1,5,250,1250
+Refrigerator,1,24,90,200
+Fan,3,10,60,50
+Light,15,6,45,60
+Washing Machine,1,2,15,1000
+Television,1,6,15,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,7,25,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,1,5,1000
+Air Cooler,1,10,50,200
+Induction Cooktop,1,3,20,1200
+Ceiling Fan,4,10,60,80
+Water Pump,1,1,10,1000
+AC,2,8,400,1500
+Refrigerator,1,24,90,200
+Fan,3,12,72,50
+Light,20,5,50,60
+Washing Machine,1,3,22.5,1000
+Television,1,8,20,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,9,30,150
+Mixer Grinder,1,2,6,500
+Electric Kettle,1,1.5,7.5,1000
+Air Cooler,1,12,60,200
+Induction Cooktop,1,4,30,1200
+Ceiling Fan,6,12,75,80
+Water Pump,1,2,20,1000
+AC,1,7,350,1500
+Refrigerator,1,24,90,200
+Fan,4,10,80,50
+Light,15,6,45,60
+Washing Machine,1,2.5,18.75,1000
+Television,1,5,12.5,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,8,27,150
+Mixer Grinder,1,1.5,4.5,500
+Electric Kettle,1,0.5,2.5,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2.5,18.75,1200
+AC,2,6,300,1500
+Refrigerator,1,24,90,200
+Fan,3,8,48,50
+Light,10,4,30,60
+Washing Machine,1,2,15,1000
+Television,1,4,10,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,6,20,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,0.5,2,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2,15,1200
+Ceiling Fan,5,8,50,80
+Water Pump,1,1,10,1000
+AC,1,5,250,1250
+Refrigerator,1,24,90,200
+Fan,3,10,60,50
+Light,15,6,45,60
+Washing Machine,1,2,15,1000
+Television,1,6,15,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,7,25,150
+Mixer Grinder,1,1,3,500
+Electric Kettle,1,1,5,1000
+Air Cooler,1,10,50,200
+Induction Cooktop,1,3,20,1200
+Ceiling Fan,4,10,60,80
+Water Pump,1,1,10,1000
+AC,2,8,400,1500
+Refrigerator,1,24,90,200
+Fan,3,12,72,50
+Light,20,5,50,60
+Washing Machine,1,3,22.5,1000
+Television,1,8,20,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,9,30,150
+Mixer Grinder,1,2,6,500
+Electric Kettle,1,1.5,7.5,1000
+Air Cooler,1,12,60,200
+Induction Cooktop,1,4,30,1200
+Ceiling Fan,6,12,75,80
+Water Pump,1,2,20,1000
+AC,1,7,350,1500
+Refrigerator,1,24,90,200
+Fan,4,10,80,50
+Light,15,6,45,60
+Washing Machine,1,2.5,18.75,1000
+Television,1,5,12.5,80
+Water Heater,1,2,20,2000
+Iron,1,1,5,1000
+Computer,1,8,27,150
+Mixer Grinder,1,1.5,4.5,500
+Electric Kettle,1,0.5,2.5,1000
+Air Cooler,1,8,40,200
+Induction Cooktop,1,2.5,18.75,1200
+AC,2,8,24,1500
+Refrigerator,1,24,3,200
+Fan,3,10,4,50
+Light,10,6,5,60
+Washing Machine,1,2,6,400
+Television,1,5,2,120
+Water Heater,1,2,8,3000
+Iron,1,1,2,1000
+Computer,1,4,3,200
+Mixer Grinder,1,0.5,1,750
+Electric Kettle,1,1,1,1500
+Air Cooler,1,8,6,350
+Induction Cooktop,1,2,1,2000
+Ceiling Fan,5,12,3,75
+Water Pump,1,1,10,1500
+AC,1,10,30,1000
+Refrigerator,1,24,2,250
+Fan,2,8,2,50
+Light,8,6,3,60
+Washing Machine,1,3,8,400
+Television,1,6,3,100
+Water Heater,1,3,12,3000
+Iron,1,1,2,1200
+Computer,1,5,4,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1200
+Air Cooler,1,10,8,400
+Induction Cooktop,1,3,2,2000
+Ceiling Fan,3,12,2,75
+Water Pump,1,2,15,1500
+AC,2,12,36,1500
+Refrigerator,1,24,3,300
+Fan,4,10,3,50
+Light,12,6,6,60
+Washing Machine,1,2,6,500
+Television,1,8,4,150
+Water Heater,1,1,4,3000
+Iron,1,1,2,800
+Computer,1,6,5,200
+Mixer Grinder,1,0.5,1,750
+Electric Kettle,1,1,1,1000
+Air Cooler,1,6,4,350
+Induction Cooktop,1,2,2,2000
+Ceiling Fan,6,12,4,75
+Water Pump,1,3,20,1500
+AC,1,8,24,1200
+Refrigerator,1,24,2,200
+Fan,3,8,2,50
+Light,8,6,3,60
+Washing Machine,1,2,6,450
+Television,1,5,2,100
+Water Heater,1,2,8,3000
+Iron,1,1,2,900
+Computer,1,4,3,200
+Mixer Grinder,1,0.5,1,750
+Electric Kettle,1,1,1,1500
+Air Cooler,1,10,8,350
+Induction Cooktop,1,2,1,2000
+Ceiling Fan,5,12,3,75
+Water Pump,1,1,10,1500
+AC,2,10,30,1500
+Refrigerator,1,24,3,250
+AC,2,8,30,1500
+Refrigerator,1,24,5,200
+Fan,3,10,3,50
+Light,10,6,4,60
+Washing Machine,1,2,4,400
+Television,1,5,2,100
+Water Heater,1,3,7,3000
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1000
+Air Cooler,1,7,4,200
+Induction Cooktop,1,2,1,1500
+Ceiling Fan,5,12,2,75
+Water Pump,1,1,5,1500
+AC,1,10,35,1000
+Refrigerator,1,24,4,250
+Fan,4,8,3,50
+Light,8,5,3,60
+Washing Machine,1,2,3,400
+Television,1,6,2,120
+Water Heater,1,3,6,2000
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1000
+Air Cooler,1,8,4,200
+Induction Cooktop,1,3,2,1500
+Ceiling Fan,4,12,2,75
+Water Pump,1,2,5,1500
+AC,2,7,25,2000
+Refrigerator,1,24,6,200
+Fan,3,9,3,60
+Light,9,7,5,75
+Washing Machine,1,3,5,500
+Television,1,7,2,100
+Water Heater,1,4,9,3000
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,1,2,500
+Electric Kettle,1,2,2,1000
+Air Cooler,1,9,4,200
+Induction Cooktop,1,2,1,1500
+Ceiling Fan,4,12,2,75
+Water Pump,1,1,5,1500
+AC,1,9,30,1500
+Refrigerator,1,24,5,250
+Fan,4,7,3,60
+Light,8,4,3,75
+Washing Machine,1,2,4,400
+Television,1,6,2,100
+Water Heater,1,3,8,2500
+Iron,1,1,2,1000
+Computer,1,4,2,200
+Mixer Grinder,1,0.5,1,500
+Electric Kettle,1,1,1,1000
+Air Cooler,1,6,4,200
+AC,2,7,38.5,1500
+Refrigerator,1,24,4.8,200
+Fan,3,8,4.8,50
+Light,10,4,6,60
+Washing Machine,1,2,5,300
+Television,1,6,4.8,120
+Water Heater,1,2,5,2000
+Iron,1,1,2,1000
+Computer,1,4,1.6,80
+Mixer Grinder,1,0.5,0.75,550
+Electric Kettle,1,0.5,0.5,1200
+Air Cooler,1,8,8,200
+Induction Cooktop,1,2,2.5,1600
+Ceiling Fan,3,12,3.6,70
+Water Pump,1,1,2.5,1500
+AC,1,4,22,1000
+Refrigerator,1,20,4,200
+Fan,4,12,7.2,50
+Light,8,6,5.4,60
+Washing Machine,1,1,2.5,300
+Television,1,4,3.2,120
+Water Heater,1,3,7.5,2000
+Iron,1,1,2,1000
+Computer,1,5,2,80
+Mixer Grinder,1,0.5,0.75,550
+Electric Kettle,1,0.5,0.5,1200
+Air Cooler,1,10,10,200
+Induction Cooktop,1,3,3.75,1600
+Ceiling Fan,5,18,5.4,70
+Water Pump,1,1,2.5,1500
+AC,1,5,27.5,1000
+Refrigerator,1,22,4.4,200
+Fan,3,10,6,50
+Light,12,6,6,60
+Washing Machine,1,2,5,300
+Television,1,5,4,120
+Water Heater,1,4,10,2000
+Iron,1,1.5,3,1000
+
+
+
