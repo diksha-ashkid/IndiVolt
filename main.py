@@ -4,7 +4,7 @@ import numpy as np
 import random
 
 app = Flask(__name__)
-rf = joblib.load('Indivolt/rfmodel.joblib')
+rf = joblib.load('IndiVolt/rfmodel.joblib')
 
 @app.route('/', methods = ['GET'])
 def index():
