@@ -3,8 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsiive Admin Dashboard | CodingLab </title>
-    <link rel="stylesheet" href="style.css">
+    <title> Admin Dashboard </title>
 
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -453,7 +452,7 @@ nav .profile-details i{
 <body>
   <div class="sidebar">
     <div class="logo-details">
-      <i> <img src = 'Indivolt.png' width="40px"></i>
+      <i> <img src = "{{url_for('static', filename='/Indivolt.png')}}" width="40px"></i>
       <span class="logo_name">IndiVolt</span>
     </div>
       <ul class="nav-links">
@@ -483,8 +482,8 @@ nav .profile-details i{
         </li>
         <li>
           <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="links_name">Setting</span>
+            <i class='bfx bx-cog' ></i>
+            <span class="links_name">Settings</span>
           </a>
         </li>
         <li class="log_out">
@@ -508,8 +507,14 @@ nav .profile-details i{
       <div class="overview-boxes">
         <div class="box">
           <div class="right-side">
-            <div class="box-topic">Appliances</div>
-            <div class="number">NUM</div>
+            <div class="box-topic">Your Current Cost:</div>
+            <div class="number">
+              {%if currcost %}
+              {{currcost}}
+              {%endif%}
+
+
+            </div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text">Numbers</span>
@@ -519,8 +524,14 @@ nav .profile-details i{
         </div>
         <div class="box">
           <div class="right-side">
-            <div class="box-topic">Cost</div>
-            <div class="number">Ren NUM</div>
+            <div class="box-topic">Estimated Renewable Cost</div>
+            <div class="number">
+              {%if rencost %}
+              {{rencost}}
+              {%endif%}
+
+
+            </div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text">Rupees</span>
@@ -531,7 +542,11 @@ nav .profile-details i{
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Total Profit</div>
-            <div class="number">DIf profit</div>
+            <div class="number">
+              {%if profit %}
+              {{profit}}
+              {%endif%}
+            </div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text">Rupees</span>
@@ -542,7 +557,11 @@ nav .profile-details i{
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Percent Gain</div>
-            <div class="number">Percent</div>
+            <div class="number">
+              {%if percent %}
+              {{percent}}
+              {%endif%}
+            </div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text">Percentage</span>
