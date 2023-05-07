@@ -367,6 +367,7 @@ nav .profile-details i{
   .home-section{
     width: calc(100% - 60px);
     left: 60px;
+    background: "{{url_for('static', filename='/bg.jpeg')}}";
   }
   .sidebar.active ~ .home-section{
 
@@ -434,6 +435,7 @@ nav .profile-details i{
   .home-section{
     width: 100%;
     left: 0;
+
   }
   .sidebar.active ~ .home-section{
     left: 60px;
@@ -567,7 +569,7 @@ form {
     </nav>
 
     <div class="home-content">
-
+<h2 style="text-align: center;">Enter the Following Consumption Information:</h2>
         <form id="myForm" action="/submit" method="post">
                 <legend >Number of Rooms</legend>
                 <div class="field">
