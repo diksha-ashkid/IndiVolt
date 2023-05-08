@@ -2,11 +2,28 @@ from flask import Flask, render_template, request
 import joblib
 import numpy as np
 import random
-
+import matplotlib
+import matplotlib.pyplot as plt
+import base64
+import io
+import os
 app = Flask(__name__)
 df = [0, 0, 0]
+matplotlib.use('Agg')
 
 rf = joblib.load('IndiVolt/rfmodel.joblib')
+def generate_pie_chart(data, labels):
+    
+
+    fig, ax = plt.subplots()
+    ax.pie(data, labels=labels)
+
+    # Set the matplotlib backend to 'Agg' to enable saving figures in Flask
+    
+    # Save the figure to a bytes buffer
+    chart_path = os.path.join(app.static_folder, 'pie.png')
+    plt.savefig(chart_path, format='png', bbox_inches='tight')
+    return chart_path
 
 @app.route('/', methods = ['GET'])
 def index():
@@ -31,6 +48,7 @@ def submit():
     pred = rf.predict(arr)
     df[2] = pred
     pred = int(pred[0])
+    
     #make pred global
     
     i = random.uniform(0.5, 1.5)
@@ -38,6 +56,10 @@ def submit():
     rencost  = np.round(pred - (12*i/100)*pred)
     profit = np.round(int(pred) - rencost)
     percent = np.round((profit/int(pred))*100)
+    data = [pred, profit]
+    labels = ['Current Cost', 'Your savings']
+    chart_data = generate_pie_chart(data, labels)
+    print(chart_data)
     return render_template('dashboard.html', currcost = pred, rencost = rencost, profit = profit, percent = percent)
 @app.route('/output', methods = ['GET', 'POST'])
 def output():
