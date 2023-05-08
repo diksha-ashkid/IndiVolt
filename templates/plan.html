@@ -15,8 +15,9 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url('bg.jpg');
+    
     font-family: 'Poppins', sans-serif;
+    background-image: url("{{url_for('static', filename='bg.jpg')}}");
 }
 /*basic reset*/
 * {margin: 0; padding: 0;}
@@ -145,12 +146,12 @@ body{
 }
 </style>
 <body>
-<form id="msform">
+<form id="msform" method="post" action="/output">
     <fieldset>
       <h1 class="fs-title">Our Planner</h1>
       <h2 class="fs-subtitle">Our "Plan" section is designed to help you optimize your energy usage and reduce your bills. Simply enter your target bill amount, and our model will provide you with recommendations on how much time to use each of your appliances to achieve maximum energy efficiency.</h2>
       <div class="field">
-        <input type="text" placeholder="0" class="text">
+        <input  class="text" name="target">
     </div>
     <div class="field">
         <input type="submit" value="Submit" class = "but">

@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsiive Admin Dashboard | CodingLab </title>
+    <title> IndiVolt Survey </title>
 
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -522,7 +522,7 @@ form {
     </div>
       <ul class="nav-links">
         <li>
-          <a href="#" class="active">
+          <a href="{{url_for('submit')}}" class="active">
             <i class='bx bx-grid-alt' ></i>
             <span class="links_name">Dashboard</span>
           </a>
@@ -534,7 +534,7 @@ form {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="{{url_for('plan')}}">
             <i class='bx bx-list-ul' ></i>
             <span class="links_name">Plans</span>
           </a>
@@ -563,7 +563,7 @@ form {
     <nav>
       <div class="sidebar-button">
         <i class='bx bx-menu sidebarBtn'></i>
-        <span class="dashboard">Dashboard</span>
+        <span class="dashboard">Survey Form</span>
       </div>
 
     </nav>
@@ -591,7 +591,7 @@ form {
                 <div class="field">
                     <input type="text" placeholder="0" class="text" name = "tvs">
                 </div>
-                <legend >Average Monthly Income</legend>
+                <legend >Average Weekly Income</legend>
                 <div class="field">
                     <input type="text" placeholder="0" class="text" name = "income">
                 </div>

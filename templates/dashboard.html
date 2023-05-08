@@ -209,6 +209,10 @@ nav .profile-details i{
   font-size: 20px;
   font-weight: 500;
 }
+.overview-boxes .box-topic1{
+  font-size: 15px;
+  font-weight: 500;
+}
 .home-content .box .number{
   display: inline-block;
   font-size: 35px;
@@ -469,7 +473,7 @@ nav .profile-details i{
           </a>
         </li>
         <li>
-          <a href="{{url_for('templates', filename='/plan.html')}}">
+          <a href="{{url_for('plan')}}">
             <i class='bx bx-list-ul' ></i>
             <span class="links_name">Plans</span>
           </a>
@@ -524,7 +528,7 @@ nav .profile-details i{
         </div>
         <div class="box">
           <div class="right-side">
-            <div class="box-topic">Estimated Renewable Cost</div>
+            <div class="box-topic1">Estimated Renewable Cost</div>
             <div class="number">
              {%if rencost %}
               {{rencost}}
@@ -622,7 +626,6 @@ nav .profile-details i{
         <div class="top-sales box">
           <div class="title">Savings</div>            
               <img src="{{url_for('static', filename = '/Pie.png')}}" alt="" width = '400px' >
-              <img src="{{url_for('static', filename='/Pie.png')}}" alt="" width = '400px' >
               
             
         </div>

@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsiive Admin Dashboard | CodingLab </title>
+    <title> Admin Dashboard </title>
 
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,7 +85,7 @@
 }
 .home-section{
   position: relative;
-  background: white;
+  background: #f5f5f5;
   min-height: 100vh;
   width: calc(100% - 240px);
   left: 240px;
@@ -135,8 +135,8 @@ nav .search-box input{
   height: 100%;
   width: 100%;
   outline: none;
-  background: white;
-  border: 2px solid white;
+  background: #F5F6FA;
+  border: 2px solid #EFEEF1;
   border-radius: 6px;
   font-size: 18px;
   padding: 0 15px;
@@ -159,7 +159,7 @@ nav .search-box .bx-search{
 .home-section nav .profile-details{
   display: flex;
   align-items: center;
-  background: white;
+  background: #F5F6FA;
   border: 2px solid #EFEEF1;
   border-radius: 6px;
   height: 50px;
@@ -367,7 +367,6 @@ nav .profile-details i{
   .home-section{
     width: calc(100% - 60px);
     left: 60px;
-    background: "{{url_for('static', filename='/bg.jpeg')}}";
   }
   .sidebar.active ~ .home-section{
 
@@ -435,7 +434,6 @@ nav .profile-details i{
   .home-section{
     width: 100%;
     left: 0;
-
   }
   .sidebar.active ~ .home-section{
     left: 60px;
@@ -450,69 +448,6 @@ nav .profile-details i{
     width: calc(100% - 60px);
   }
 }
-
-form {
-  width: 70%;
-  margin: 2% 15% 7% 15%;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.271);
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  font-family: 'Poppins', sans-serif;
-}
-
-.field {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px 0;
-  width: 100%;
-}
-
-.field input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
-}
-
-.field input[type="text"]::placeholder {
-  color: #999;
-  text-align: center;
-}
-
-.field input[type="submit"] {
-  background-color: #087b43;
-  width: 70%;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  border-radius: 5px;
-}
-
-.field input[type="submit"]:hover {
-  background-color: #0f4d2f;
-}
-
-.legend {
-  color: #fff;
-  font-color : white;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  text-align: center;
-}
-
 </style>
 <body>
   <div class="sidebar">
@@ -522,7 +457,7 @@ form {
     </div>
       <ul class="nav-links">
         <li>
-          <a href="#" class="active">
+          <a href="{{url_for('submit')}}" class="active">
             <i class='bx bx-grid-alt' ></i>
             <span class="links_name">Dashboard</span>
           </a>
@@ -534,7 +469,7 @@ form {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="{{url_for('plan')}}">
             <i class='bx bx-list-ul' ></i>
             <span class="links_name">Plans</span>
           </a>
@@ -547,8 +482,8 @@ form {
         </li>
         <li>
           <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="links_name">Setting</span>
+            <i class='bfx bx-cog' ></i>
+            <span class="links_name">Settings</span>
           </a>
         </li>
         <li class="log_out">
@@ -563,21 +498,125 @@ form {
     <nav>
       <div class="sidebar-button">
         <i class='bx bx-menu sidebarBtn'></i>
-        <span class="dashboard">Your Target Cap:</span>
+        <span class="dashboard">Your Target Plan</span>
       </div>
-      <h2>Maximum Cap: {%if target} 
-        {{target}}
-        {%endif%}
-      </h2>
 
     </nav>
-    <table>
-        <tr>
-            <th>Planned Hours of AC for this month: </th>
-            <th>Planned Hours of AC for this month: </th>
-        </tr>
-    </table>
 
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Your Current Cost:</div>
+            <div class="number">
+              {%if currcost %}
+              {{currcost}}
+              {%endif%}
+
+
+            </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Numbers</span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Estimated Renewable Cost</div>
+            <div class="number">
+             {%if rencost %}
+              {{rencost}}
+              {%endif%}
+
+
+            </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Rupees</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Profit</div>
+            <div class="number">
+              {%if profit %}
+              {{profit}}
+              {%endif%}
+            </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Rupees</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Percent Gain</div>
+            <div class="number">
+              {%if percent %}
+              {{percent}}
+              {%endif%}
+            </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Percentage</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+      </div>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Optimized energy hours</div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Appliances</li>
+              <li><a href="#">AC</a></li>
+              <li><a href="#">TV</a></li>
+            </ul>
+          </div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Orignal Consumption (Hours)</li>
+              <li><a href="#">
+                {%if actime %}
+                AC: {{actime}}
+                {%endif%}</a></li>
+              <li><a href="#">
+                {%if tvtime %}
+              TV: {{tvtime}}
+              {%endif%}
+              </a></li>
+            </ul>
+          </div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Suggested Consumption (Hours)</li>
+              <li><a href="#">
+                {%if newactime %}
+              AC: {{newactime}}
+              {%endif%}
+              </a></li>
+              <li><a href="#">
+                {%if newtvtime %}
+              TV:{{newtvtime}}
+              {%endif%}
+              </a></li>
+            </ul>
+          </div>
+          </div>
+
+        </div>
+        
+      </div>
+    
+    </div>
   </section>
 
   <script>
